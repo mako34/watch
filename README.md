@@ -36,6 +36,14 @@ $netcfg
 
 ..
 
+. screen size
+$dumpsys display
+
+. font size
+$dumpsys display | grep mBaseDisplayInfo  [mira density]
+
+
+
 . le puse a decirme los sensores
 .. tiene algunos,
 Ultra-Low Power   Sensor Hubs (ULPSH)
