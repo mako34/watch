@@ -43,13 +43,41 @@ $dumpsys display
 $dumpsys display | grep mBaseDisplayInfo  [mira density]
 
 
+. move file
+
+
+...
+tools:
+
+.busybox
+https://www.apk4fun.com/apk/6139/
+
+
+haz esto para rootear manual
+old way
+http://www.pocketables.com/2011/06/how-to-manually-root-almost-any-android-device.html
+
+
+////
+
+Locations
+
+apps installed in:
+/data/local/tmp
+
+
+paste file on phone
+$adb push Superuser.apk /data/local/tmp
 
 . le puse a decirme los sensores
 .. tiene algunos,
 Ultra-Low Power   Sensor Hubs (ULPSH)
 
 
+
 HACER,
+. need root?
+
 . ejercicio de los sensores con el otro reloj
 
 . instala 
