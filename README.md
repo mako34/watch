@@ -76,7 +76,16 @@ Ultra-Low Power   Sensor Hubs (ULPSH)
 
 
 HACER,
-. need root?
+. need root!
+
+. boot animation
+http://www.addictivetips.com/mobile/how-to-change-customize-create-android-boot-animation-guide/
+
+. launcher?
+http://www.addictivetips.com/android/the-best-free-android-launchers-for-home-screen-replacement/
+
+. custom launcher
+http://arnab.ch/blog/2013/08/how-to-write-custom-launcher-app-in-android/
 
 . ejercicio de los sensores con el otro reloj
 
