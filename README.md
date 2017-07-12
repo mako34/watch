@@ -89,7 +89,8 @@ $adb push Superuser.apk /data/local/tmp
 .. tiene algunos,
 Ultra-Low Power   Sensor Hubs (ULPSH)
 
-
+. Installed apps
+$pm list packages -f
 
 HACER,
 . need root!
