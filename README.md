@@ -6,6 +6,7 @@ le podria poner mi propia version android?
 . mejor configurar esta version
 
 mira todos:
+ORDENA POR ESTAS CATEGORIAS!
 http://adbshell.com
 
 # watch
@@ -53,6 +54,9 @@ $adb shell wm density xx
   
 . move file
 cp mv
+
+. Check installed apps
+$pm list packages -f 
 
 ...
 tools:
