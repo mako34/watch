@@ -5,6 +5,8 @@ le podria poner mi propia version android?
 . no pues los botones, o depronto si los configuro, 
 . mejor configurar esta version
 
+mira todos:
+http://adbshell.com
 
 # watch
 android watch handle
@@ -42,9 +44,15 @@ $dumpsys display
 . font size
 $dumpsys display | grep mBaseDisplayInfo  [mira density]
 
+. check density
+adb shell wm density
 
+. change density
+$adb shell wm density xx
+  . xx number
+  
 . move file
-
+cp mv
 
 ...
 tools:
@@ -56,6 +64,14 @@ https://www.apk4fun.com/apk/6139/
 haz esto para rootear manual
 old way
 http://www.pocketables.com/2011/06/how-to-manually-root-almost-any-android-device.html
+
+. screenShot / root
+adb shell screencap <path/filename.png>
+
+
+. record screen video / root
+adb shell screenrecord <path/filename.mp4>
+
 
 
 ////
