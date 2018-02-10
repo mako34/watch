@@ -14,8 +14,9 @@ android watch handle
 
 . instala adb en path
 
+  para listar devices 
 . $adb devices 
-  para listar devices
+
 
 . conecta a shell
 $adb shell
