@@ -18,6 +18,15 @@ android watch handle
 . $adb devices 
 
 
+To get Android version you can use: <br />
+. $adb shell getprop ro.build.version.release 
+
+to get API level: <br />
+. $adb shell getprop ro.build.version.sdk 
+
+You can see all available properties with this command: <br />
+. $adb shell getprop
+
 . conecta a shell
 $adb shell
 $adb -d shell to connect to an USB-Device.
